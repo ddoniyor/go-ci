@@ -9,6 +9,11 @@ func Test_nps(t *testing.T) {
 	if  want!=got{
 		t.Error("nps with args:", scores,"want:",want,"got:",got)
 	}*/
+	//func расчет Расстояния (2 парметра) 1{} - 1 test
+	//func bonus 2 tests
+	/*bonus([]int)int{
+
+	}*/
 	testCases := []struct{
 		name string
 		scores []int
